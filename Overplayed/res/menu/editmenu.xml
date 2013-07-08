@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/properties"
+        android:title="Edit button..."/>
+    <item
+        android:id="@+id/save"
+        android:title="Save"/>
+    <item
+        android:id="@+id/saveas"
+        android:title="Save as..."/>
+    <item
+        android:id="@+id/locktogrid"
+        android:title="Lock-to-grid"
+         android:checkable="true" />
+    <item
+        android:title="Add button...">
+        <menu>
+            <item android:id="@+id/addButton"
+                  android:title="Button" />
+            <item android:id="@+id/addJoystick"
+                  android:title="Joystick" />
+            <item android:id="@+id/addDPad"
+                  android:title="DPad" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/removebutton"
+        android:title="Remove button"/>
+</menu>

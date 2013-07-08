@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/propertiesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+		android:focusableInTouchMode="true"  >
+
+        <TextView
+            android:id="@+id/vGravLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vertical Gravity:" />
+
+        <RadioGroup
+            android:id="@+id/vRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/radioVCenter"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top" />
+
+            <RadioButton
+                android:id="@id/radioVCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Center" />
+
+            <RadioButton
+                android:id="@+id/radioBottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bottom" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/hGravLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horizontal Gravity:" />
+
+        <RadioGroup
+            android:id="@+id/hRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/radioHCenter"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Left" />
+
+            <RadioButton
+                android:id="@id/radioHCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Center" />
+
+            <RadioButton
+                android:id="@+id/radioRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Right" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Size:" />
+
+        <EditText
+            android:id="@+id/editSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:selectAllOnFocus="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Position:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X: " />
+
+            <EditText
+                android:id="@+id/editXPos"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:selectAllOnFocus="true"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Y: " />
+
+            <EditText
+                android:id="@+id/editYPos"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:selectAllOnFocus="true"  />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

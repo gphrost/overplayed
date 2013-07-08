@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Overplayed</string>
+    <string name="address_hint">Server Address</string>
+    <string name="port_label">Port:</string>
+    <string name="port_default">30000</string>
+    <string name="button_label">Start</string>
+    <string name="config">Configure External Gamepad</string>
+
+    <string-array name="buttonLabel_array">
+        <item>BUTTON A (1)</item>
+        <item>BUTTON B (2)</item>
+        <item>BUTTON X (3)</item>
+        <item>BUTTON Y (4)</item>
+        <item>BUTTON L1 (5)</item>
+        <item>BUTTON R1 (6)</item>
+        <item>BUTTON L2 (7)</item>
+        <item>BUTTON R2 (8)</item>
+        <item>Select (9)</item>
+        <item>Start (10)</item>
+        <item>BUTTON L3 (11)</item>
+        <item>BUTTON R3 (12)</item>
+        <item>DPAD UP</item>
+        <item>DPAD DOWN</item>
+        <item>DPAD LEFT</item>
+        <item>DPAD RIGHT</item>
+    </string-array>
+    
+    <string-array name="analogLabel_array">
+        <item>Right Analog X</item>
+        <item>Right Analog Y</item>
+        <item>Left Analog X</item>
+        <item>Left Analog Y</item>
+    </string-array>
+
+</resources>

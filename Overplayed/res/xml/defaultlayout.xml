@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<controller>
+  <joystick radiusScale="3.0" gravity="83" xOffset="0.0" yOffset="0.0" id="0" xIndex="0" yIndex="1" />
+  <joystick radiusScale="3.0" gravity="85" xOffset="0.0" yOffset="0.0" id="0" xIndex="2" yIndex="3" />
+  <button radiusScale="1.0" gravity="85" xOffset="2.0" yOffset="6.0" id="0" label="A" buttonIndex="0" />
+  <button radiusScale="1.0" gravity="85" xOffset="0.0" yOffset="8.0" id="0" label="B" buttonIndex="1" />
+  <button radiusScale="1.0" gravity="85" xOffset="4.0" yOffset="8.0" id="0" label="X" buttonIndex="2" />
+  <button radiusScale="1.0" gravity="85" xOffset="2.0" yOffset="10.0" id="0" label="Y" buttonIndex="3" />
+  <button radiusScale="1.0" gravity="83" xOffset="4.0" yOffset="12.0" id="0" label="L1" buttonIndex="4" />
+  <button radiusScale="1.0" gravity="83" xOffset="0.0" yOffset="12.0" id="0" label="L2" buttonIndex="6" />
+  <button radiusScale="1.0" gravity="85" xOffset="4.0" yOffset="12.0" id="0" label="R1" buttonIndex="5" />
+  <button radiusScale="1.0" gravity="85" xOffset="0.0" yOffset="12.0" id="0" label="R2" buttonIndex="7" />
+  <button radiusScale="1.0" gravity="83" xOffset="6.0" yOffset="0.0" id="0" label="L3" buttonIndex="10" />
+  <button radiusScale="1.0" gravity="85" xOffset="6.0" yOffset="0.0" id="0" label="R3" buttonIndex="11" />
+  <button radiusScale="1.0" gravity="81" xOffset="1.0" yOffset="0.0" id="0" label="&gt;" buttonIndex="9" />
+  <button radiusScale="1.0" gravity="81" xOffset="-1.0" yOffset="0.0" id="0" label="&lt;" buttonIndex="8" />
+  <dpad radiusScale="3.0" gravity="83" xOffset="0.0" yOffset="6.0" id="0" downIndex="13" leftIndex="14" rightIndex="15" upIndex="12" />
+</controller>
