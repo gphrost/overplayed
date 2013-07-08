@@ -68,7 +68,7 @@ public class MainService extends Service {
 		Notification note = new Notification(R.drawable.overplayed_logo,
 				"Overplayed is running ...", System.currentTimeMillis());
 
-		Intent i = new Intent(this,MenuActivity.class);
+		Intent i = new Intent(this,Overplayed.class);
 		i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		PendingIntent pi = PendingIntent.getActivity(this, 0, i, 0);//.getService(this, 0, intent, 0);
 
